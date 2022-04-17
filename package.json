@@ -1,0 +1,44 @@
+{
+  "name": "nodejs-docker-postgres",
+  "version": "1.0.0",
+  "description": "Aplicação CRUD com Node.js & PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "postgresel",
+    "azure",
+    "serverless",
+    "azure-functions",
+    "azure-devops",
+    "azure-storage",
+    "github-actions",
+    "app-service",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wguilherme/nodejs-docker-postgres.git"
+  },
+  "keywords": [],
+  "author": "Withney Guilherme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wguilherme/nodejs-docker-postgres/issues"
+  },
+  "homepage": "https://github.com/wguilherme/nodejs-docker-postgres#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-promise-router": "^4.1.1",
+    "pg": "^8.7.3"
+  }
+}
