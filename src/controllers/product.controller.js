@@ -33,3 +33,8 @@ exports.updateProductById = async (req, res) => {
   // UPDATE products SET product_name = $1, quantity = $2, price = $3 WHERE productId = $4
   res.status(200).send(response.rows);
 }
+exports.deleteProductById = async (req, res) => {
+  const productId = parseInt(req.params.id)
+  const response = await db.query('DELETE FROM products WHERE productId = $1', [productId]);
+  res.status(200).send(response.rows);
+}
